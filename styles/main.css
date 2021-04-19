@@ -15,8 +15,10 @@ h1 {
     font-family: 'Bebas Neue', sans-serif;
     color: #E85A4F;
     margin: 10px;
+    animation: fade 1s ease backwards;
 }
 h3 {
+    animation: fade 3s ease backwards;
     font-family: 'Bebas Neue', sans-serif;
     color: #8E8D8A;
     margin: 20px;
@@ -25,6 +27,7 @@ h3 {
 
 /* hover button */
 .entButton {
+    animation: fade 5s ease backwards;
     color: #E98074;
     border: 2px solid;
     background: none;
@@ -78,5 +81,14 @@ h3 {
     font-size: 17px;
     margin: 7px;
     border-radius: 10%;
-    
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

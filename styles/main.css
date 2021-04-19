@@ -63,8 +63,9 @@ h3 {
 
 
 .homeLinks {
-    font-size: 20px;
+    color: #E98074;
     font-family: 'Bebas Neue', cursive;
-    cursor: pointer; 
-    
+    margin:20px;
+    background: none;
+    border: 1px solid;
 }

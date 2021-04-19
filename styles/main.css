@@ -3,6 +3,12 @@ body {
     text-align: center;
 }
 
+.banner {
+    padding: 45px;
+    background: #D8C3A5;
+    
+}
+
 h1 {
     padding: 5%;
     font-size: 60px;
@@ -58,14 +64,15 @@ h3 {
 
 .homeHeader {
     text-align: left;
-    padding: 15px;
+    padding: 0px;
+    margin: 0px;
 }
 
 
 .homeLinks {
     color: #E98074;
     font-family: 'Bebas Neue', cursive;
-    margin:20px;
+    margin:10px;
     background: none;
     border: 1px solid;
 }

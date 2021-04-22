@@ -167,12 +167,41 @@ font-size: 17px;
 }
 
 .img1 {
-    height: 210px;
-    width: 300px;
-    margin-left: 175px;  
+    height: 250px;
+    width: 350px;
+    margin-left: 175px; 
+    align-content: center;
 }
 
 .boxMDL {
  margin-left: 28px;
 }
 
+.img2 {
+    height: 230px;
+    width: 275px;
+    margin-left: 215px; 
+    align-content: center;
+}
+
+.img3 {
+    height: 230px;
+    width: 275px;
+    margin-left: 185px; 
+}
+
+.img4 {
+    height: 230px;
+    width: 275px;
+    margin-left: 185px;
+}
+
+.imgRow {
+    display: flex;
+    margin-left: -215px;
+}
+
+footer {
+    font-family: 'Cabin', sans-serif;
+    color: #8E8D8A;
+}

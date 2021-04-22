@@ -4,6 +4,11 @@ body {
     text-align: center;
 }
 
+.tBlogHeaders {
+   font-size: 29px;
+   text-align: left;
+   margin-left: 35px;
+ }
 
 h1 {
     padding: 5%;
@@ -19,7 +24,12 @@ h3 {
     font-family: 'Bebas Neue', sans-serif;
     color: #E98074;
     margin: 20px;
+}
 
+.homeH3 {
+    animation: fade 3s ease backwards;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #8E8D8A;
 }
 
 
@@ -97,6 +107,7 @@ p {
     border-radius: 10%;
     display: flex;
     align-content: left;
+    text-decoration: none;
 
 }
 
@@ -139,11 +150,11 @@ border-bottom: 6px solid #8E8D8A;
 }
 
 .box3 {
-    width: 1000px fit-content;
+    width: 1110px ;
     border-top:6px solid #E98074;
     border-left: 6px solid #E98074;
     margin-top: -160px;
-    margin-left: -400px;
+    position: relative;
 }
 
 
@@ -156,5 +167,12 @@ font-size: 17px;
 }
 
 .img1 {
-    text-align: center;
-} 
+    height: 210px;
+    width: 300px;
+    margin-left: 175px;  
+}
+
+.boxMDL {
+ margin-left: 28px;
+}
+

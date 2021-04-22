@@ -1,3 +1,12 @@
+/* colours used
+#EAE7DC - Background
+#D8C3A5 - Banner
+#8E8D8A - Body text & borders
+#E98074 - h3 headings & borders
+#E85A4F - Main heading
+*/
+
+
 
 body {
     background-color: #EAE7DC;
@@ -24,6 +33,7 @@ h3 {
     font-family: 'Bebas Neue', sans-serif;
     color: #E98074;
     margin: 20px;
+    font-size: 25px;
 }
 
 .homeH3 {
@@ -204,4 +214,11 @@ font-size: 17px;
 footer {
     font-family: 'Cabin', sans-serif;
     color: #8E8D8A;
+}
+
+.lPlantxt {
+ padding: 70px;
+ margin: -80 0 -60 0;
+ font-size: 18px;
+ font-family: 'Cabin', sans-serif;
 }

@@ -1,3 +1,10 @@
+
+body {
+    background-color: #EAE7DC;
+    text-align: center;
+}
+
+
 /* colours used
 #EAE7DC - Background
 #D8C3A5 - Banner
@@ -5,13 +12,6 @@
 #E98074 - h3 headings & borders
 #E85A4F - Main heading
 */
-
-
-
-body {
-    background-color: #EAE7DC;
-    text-align: center;
-}
 
 .tBlogHeaders {
    font-size: 29px;
